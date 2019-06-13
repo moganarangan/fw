@@ -22,6 +22,8 @@ namespace FileWatch
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddCors();
+
             // Register Dependency Injection
             services.AddTransient<IWatchFile, WatchFile>();
         }
@@ -39,6 +41,7 @@ namespace FileWatch
                 app.UseHsts();
             }
 
+            app.UseCors(options => options.AllowAnyOrigin());
             app.UseHttpsRedirection();
             app.UseMvc();
         }

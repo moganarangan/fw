@@ -6,6 +6,6 @@ namespace FileWatch.Models
     {
         public List<FileModel> FileList { get; set; }
 
-        public int FilesCount { get; set; }
+        public int FilesCount { get { return FileList.Count; } }
     }
 }

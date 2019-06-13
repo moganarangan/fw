@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using FileWatch.Models;
 using FileWatcher.Interface;
 
@@ -9,7 +10,14 @@ namespace FileWatcher
     {
         public FileWatchResponseModel GetAllFiles()
         {
-            var response = new FileWatchResponseModel { FileList = new List<FileModel> { }, FilesCount = 0 };
+            // return GetLocalFiles();
+
+            return GetSharedFiles();
+        }
+
+        private FileWatchResponseModel GetLocalFiles()
+        {
+            var response = new FileWatchResponseModel { FileList = new List<FileModel> { } };
 
             var file = new FileModel
             {
@@ -71,7 +79,29 @@ namespace FileWatcher
             };
             response.FileList.Add(file);
 
-            response.FilesCount = response.FileList.Count;
+            return response;
+        }
+
+        private FileWatchResponseModel GetSharedFiles()
+        {
+            var response = new FileWatchResponseModel { FileList = new List<FileModel> { } };
+            var dir = Directory.GetFiles(@"\\26.163.2.155\dbs\EMEA\FileWatcher");
+
+            foreach (var filepath in dir)
+            {
+                var fi = new FileInfo(filepath);
+
+                var file = new FileModel
+                {
+                    FileName = fi.Name,
+                    Extension = fi.Extension,
+                    FileSize = fi.Length,
+                    DateCreated = fi.CreationTime,
+                    DateLastUpdated = fi.LastWriteTime
+                };
+                response.FileList.Add(file);
+            }
+
             return response;
         }
     }

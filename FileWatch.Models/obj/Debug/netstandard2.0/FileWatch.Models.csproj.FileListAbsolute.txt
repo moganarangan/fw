@@ -7,3 +7,12 @@ C:\project\FileWatch\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.
 C:\project\FileWatch\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.AssemblyInfo.cs
 C:\project\FileWatch\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.dll
 C:\project\FileWatch\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.pdb
+C:\proj\fw\FileWatch.Models\bin\Debug\netstandard2.0\FileWatch.Models.deps.json
+C:\proj\fw\FileWatch.Models\bin\Debug\netstandard2.0\FileWatch.Models.dll
+C:\proj\fw\FileWatch.Models\bin\Debug\netstandard2.0\FileWatch.Models.pdb
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.csproj.CoreCompileInputs.cache
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.AssemblyInfoInputs.cache
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.AssemblyInfo.cs
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.dll
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.pdb
+C:\proj\fw\FileWatch.Models\obj\Debug\netstandard2.0\FileWatch.Models.csprojAssemblyReference.cache

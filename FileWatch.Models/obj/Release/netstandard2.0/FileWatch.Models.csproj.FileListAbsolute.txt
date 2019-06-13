@@ -1,0 +1,9 @@
+C:\proj\fw\FileWatch.Models\bin\Release\netstandard2.0\FileWatch.Models.deps.json
+C:\proj\fw\FileWatch.Models\bin\Release\netstandard2.0\FileWatch.Models.dll
+C:\proj\fw\FileWatch.Models\bin\Release\netstandard2.0\FileWatch.Models.pdb
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.csprojAssemblyReference.cache
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.csproj.CoreCompileInputs.cache
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.AssemblyInfoInputs.cache
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.AssemblyInfo.cs
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.dll
+C:\proj\fw\FileWatch.Models\obj\Release\netstandard2.0\FileWatch.Models.pdb

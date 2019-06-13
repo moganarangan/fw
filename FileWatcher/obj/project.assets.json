@@ -55,7 +55,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "Ny2pjsFqJup9M4BIbBpK2Syw9kYmagoLLTr52SDkam9jQ5nZ2QtOjwqCzdPYYzWDlODQAhTyk22c2P4LFh8qcA==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -195,23 +195,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mogan\\.nuget\\packages\\": {},
+    "C:\\Users\\mrdhath\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\project\\FileWatch\\FileWatcher\\FileWatcher.csproj",
+      "projectUniqueName": "C:\\proj\\fw\\FileWatcher\\FileWatcher.csproj",
       "projectName": "FileWatcher",
-      "projectPath": "C:\\project\\FileWatch\\FileWatcher\\FileWatcher.csproj",
-      "packagesPath": "C:\\Users\\mogan\\.nuget\\packages\\",
-      "outputPath": "C:\\project\\FileWatch\\FileWatcher\\obj\\",
+      "projectPath": "C:\\proj\\fw\\FileWatcher\\FileWatcher.csproj",
+      "packagesPath": "C:\\Users\\mrdhath\\.nuget\\packages\\",
+      "outputPath": "C:\\proj\\fw\\FileWatcher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mrdhath\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -219,13 +219,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://ihcmartifactory.es.ad.adp.com:8083/artifactory/api/nuget/local_nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\project\\FileWatch\\FileWatch.Models\\FileWatch.Models.csproj": {
-              "projectPath": "C:\\project\\FileWatch\\FileWatch.Models\\FileWatch.Models.csproj"
+            "C:\\proj\\fw\\FileWatch.Models\\FileWatch.Models.csproj": {
+              "projectPath": "C:\\proj\\fw\\FileWatch.Models\\FileWatch.Models.csproj"
             }
           }
         }

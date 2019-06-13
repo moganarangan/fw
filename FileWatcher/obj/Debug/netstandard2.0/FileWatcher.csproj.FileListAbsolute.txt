@@ -10,3 +10,15 @@ C:\project\FileWatch\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.AssemblyIn
 C:\project\FileWatch\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.csproj.CopyComplete
 C:\project\FileWatch\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.dll
 C:\project\FileWatch\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.pdb
+C:\proj\fw\FileWatcher\bin\Debug\netstandard2.0\FileWatcher.deps.json
+C:\proj\fw\FileWatcher\bin\Debug\netstandard2.0\FileWatcher.dll
+C:\proj\fw\FileWatcher\bin\Debug\netstandard2.0\FileWatcher.pdb
+C:\proj\fw\FileWatcher\bin\Debug\netstandard2.0\FileWatch.Models.dll
+C:\proj\fw\FileWatcher\bin\Debug\netstandard2.0\FileWatch.Models.pdb
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.csprojAssemblyReference.cache
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.csproj.CoreCompileInputs.cache
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.AssemblyInfoInputs.cache
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.AssemblyInfo.cs
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.csproj.CopyComplete
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.dll
+C:\proj\fw\FileWatcher\obj\Debug\netstandard2.0\FileWatcher.pdb
