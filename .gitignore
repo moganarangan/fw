@@ -1,0 +1,7 @@
+.vs/
+[Nn]ode_modules
+[Bb]in
+obj/
+dist/
+FileWatch.WebApp/www/
+FileWatch.WebApp/package-lock.json
