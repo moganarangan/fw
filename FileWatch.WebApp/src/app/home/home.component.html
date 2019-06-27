@@ -5,15 +5,21 @@
 
 <div>
 
-  {{files | json}}
+  <br />
 
+   <ul *ngIf="files">
+    <li *ngFor="let item of files.fileList; let i = index">
+      Name: {{item.fileName}}
+      <br />
+      EXT: {{item.extension}}
+      <br />
+      Creation: {{item.dateCreated}}
+      <br />
+      Modified: {{item.dateLastUpdated}}
+      <br />
 
-
-  <div class="card">
-    <div class="card_title title-white">
-      <p>Files Count</p>
-    </div>
-  </div>
+    </li>
+  </ul>
 
 </div>
 

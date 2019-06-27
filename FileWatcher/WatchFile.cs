@@ -85,7 +85,8 @@ namespace FileWatcher
         private FileWatchResponseModel GetSharedFiles()
         {
             var response = new FileWatchResponseModel { FileList = new List<FileModel> { } };
-            var dir = Directory.GetFiles(@"\\26.163.2.155\dbs\EMEA\FileWatcher");
+            // var dir = Directory.GetFiles(@"\\26.163.2.155\dbs\EMEA\FileWatcher");
+            var dir = Directory.GetFiles(@"C:\test");
 
             foreach (var filepath in dir)
             {

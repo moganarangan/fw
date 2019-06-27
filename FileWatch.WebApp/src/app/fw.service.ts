@@ -10,7 +10,7 @@ export class FwService {
   constructor(private http: HttpClient) { }
 
   getfiles = (): Observable<any> => {
-    const apiURL = 'http://localhost:4523/api/files';
+    const apiURL = 'https://localhost:44375/api/files';
 
     return this.http.get<any>(apiURL);
   }
