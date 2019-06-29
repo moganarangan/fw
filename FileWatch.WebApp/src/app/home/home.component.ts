@@ -1,5 +1,4 @@
 import { Component, AfterViewInit } from '@angular/core';
-import { FwService } from '../fw.service';
 
 @Component({
   selector: 'app-home',
@@ -8,19 +7,9 @@ import { FwService } from '../fw.service';
 })
 export class HomeComponent implements AfterViewInit {
 
-  public files: any;
-
-  constructor(private fwService: FwService) { }
+  constructor() { }
 
   ngAfterViewInit() {
-    this.getFiles();
-  }
-
-  getFiles = () => {
-    this.fwService.getfiles().subscribe(
-      data => this.files = data,
-      error => console.log(error)
-    );
   }
 
 }

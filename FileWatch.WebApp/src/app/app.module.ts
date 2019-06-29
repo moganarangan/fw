@@ -8,17 +8,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { ClarityModule } from '@clr/angular';
 
-import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
-
 import { FwService } from './fw.service';
+import { HeaderComponent } from './header/header.component';
+import { LeftPanelComponent } from './left-panel/left-panel.component';
+import { RightPanelComponent } from './right-panel/right-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
-    HomeComponent
+    HomeComponent,
+    HeaderComponent,
+    LeftPanelComponent,
+    RightPanelComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +31,7 @@ import { FwService } from './fw.service';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    ClarityModule,
     MDBBootstrapModule.forRoot()
   ],
   providers: [FwService],

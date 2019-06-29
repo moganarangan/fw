@@ -1,25 +1,11 @@
-<div style="text-align: center" class="mt-4">
-  <img width="80" height="80" alt="App Logo" src="../assets/chemistry.png" class="img-fluid">
-  <h1>Welcome to Samples!</h1>
-</div>
+<div class="clr-row">
 
-<div>
+  <div class="clr-col">
+    <app-left-panel></app-left-panel>
+  </div>
 
-  <br />
-
-   <ul *ngIf="files">
-    <li *ngFor="let item of files.fileList; let i = index">
-      Name: {{item.fileName}}
-      <br />
-      EXT: {{item.extension}}
-      <br />
-      Creation: {{item.dateCreated}}
-      <br />
-      Modified: {{item.dateLastUpdated}}
-      <br />
-
-    </li>
-  </ul>
+  <div class="clr-col">
+    <app-right-panel></app-right-panel>
+  </div>
 
 </div>
-

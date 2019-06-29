@@ -1,0 +1,25 @@
+<div class="text-center">
+
+  <span class="label mt-3">Files from Shared Folder</span>
+
+  <div class="mt-2 mr-3 ml-3">
+    <table class="table" *ngIf="files">
+      <thead>
+        <tr>
+          <th class="left">File Name</th>
+          <th class="left">Creation Date</th>
+          <th class="left">Last Modified</th>
+          <th class="left">File Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of files.fileList; let i = index">
+          <td class="left">{{item.fileName}}</td>
+          <td class="left">{{item.dateCreated}}</td>
+          <td class="left">{{item.dateLastUpdated}}</td>
+          <td class="left">{{item.fileSize}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
